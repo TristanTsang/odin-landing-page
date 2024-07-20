@@ -71,3 +71,89 @@ nav {
   height: 33px;
   border-radius: 5px;
 }
+
+h2 {
+  color: black;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box {
+  height: 200px;
+  width: 200px;
+  border: rgb(54, 121, 245) solid 5px;
+  border-radius: 25px;
+}
+
+.subtext.image {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  width: 200px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.quote-text {
+  font-style: italic;
+  color: rgb(86, 86, 86);
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "Roboto";
+}
+.author-text {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  font-family: "Roboto";
+}
+.quote-container {
+  margin: 50px 400px 50px 400px;
+}
+
+.banner {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 100px 50px 100px;
+  background-color: rgb(54, 121, 245);
+  border-radius: 10px;
+}
+.banner-subtext {
+  font-family: "Roboto";
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+}
+.banner-header {
+  font-family: "Roboto";
+  color: white;
+  font-size: 25px;
+}
+.banner-text-container {
+  flex: 3;
+}
+.banner-button {
+  background-color: transparent;
+  border: white solid 2px;
+  color: white;
+  width: 125px;
+  height: 40px;
+  font-family: "roboto";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  flex: 1 1 1;
+}
