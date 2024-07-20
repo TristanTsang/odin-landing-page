@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-container {
+  flex: 1 1 1;
+  display: flex;
+  gap: 30px;
+}
+
+.header-link {
+  display: inline;
+  font-family: "Roboto";
+  color: gray;
+}
+.header-logo {
+  flex: 1 1 1;
+  font-family: "Roboto";
+  font-weight: 750;
+  font-size: 25px;
+}
