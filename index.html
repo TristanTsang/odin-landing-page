@@ -12,7 +12,7 @@
     />
   </head>
   <body style="margin: 0">
-    <div style="background-color: rgb(10, 52, 99); padding: 25px">
+    <div style="background-color: rgb(12, 36, 63); padding: 25px">
       <nav>
         <div class="header-logo">Header Logo</div>
         <div class="link-container">
@@ -22,17 +22,21 @@
         </div>
       </nav>
 
-      <div style="justify-content: center; align-items: center">
-        <div style="display: inline">
-          <div>This Website Is Awesome</div>
-          <div>
+      <div class="outer-container">
+        <div class="inner-container">
+          <div class="header">This website is awesome</div>
+          <p class="subtext">
             This website has some subtext that goes under the main title. It's
             smaller in font and the color is lower in contrast
-          </div>
-          <button>Sign up</button>
+          </p>
+          <button class="signup-button">Sign up</button>
         </div>
 
-        <div style="display: inline">This is a placeholder for an image</div>
+        <div class="inner-container">
+          <div class="placeholder-image">
+            This is a placeholder for an image
+          </div>
+        </div>
       </div>
     </div>
 
@@ -76,8 +80,15 @@
         </div>
       </div>
     </div>
-    <div style="background-color: rgb(10, 52, 99); padding: 25px">
-      <div>Copyright @ The Odin Project 2021</div>
+    <div
+      style="
+        background-color: rgb(12, 36, 63);
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+      "
+    >
+      <div class="subtext">Copyright @ The Odin Project 2021</div>
     </div>
   </body>
 </html>

@@ -23,3 +23,51 @@ nav {
   font-weight: 500;
   font-size: 25px;
 }
+.header {
+  text-wrap: wrap;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.subtext {
+  text-wrap: wrap;
+  color: lightgray;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px 100px 0px;
+}
+.inner-container {
+  width: 500px;
+
+  margin: 10px;
+}
+
+.placeholder-image {
+  font-family: "Roboto";
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+  line-height: 250px;
+  background-color: gray;
+  color: white;
+  padding: auto;
+}
+
+.signup-button {
+  color: white;
+  background-color: rgb(54, 121, 245);
+  border: 0px;
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: bold;
+  width: 150px;
+  height: 33px;
+  border-radius: 5px;
+}
